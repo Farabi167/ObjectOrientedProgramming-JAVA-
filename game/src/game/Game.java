@@ -16,8 +16,9 @@ public class Game {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Play p = new Play();
-        p.setVisible(true);
+        HitRat hr = new HitRat();
+        hr.setVisible(true);
+        hr.run();
     }
     
 }
